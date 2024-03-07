@@ -6,7 +6,7 @@
 
 ################################################################################
 # Create a stage for building the application.
-FROM myregistry.example.com/golang:1.21.6 AS build
+FROM myregistry.example.com/golang:1.22.1 AS build
 WORKDIR /src
 
 # Download dependencies as a separate step to take advantage of Docker's caching.
